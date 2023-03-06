@@ -1,0 +1,9 @@
+aiohttp
+pandas
+asyncio
+loguru
+requests
+openpyxl
+yarl
+fake_useragent
+beautifulsoup4 
