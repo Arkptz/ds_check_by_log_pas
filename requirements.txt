@@ -7,3 +7,4 @@ openpyxl
 yarl
 fake_useragent
 beautifulsoup4 
+xlsxwriter
