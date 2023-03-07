@@ -247,7 +247,7 @@ async def dis_client(proxy: Proxy_Class, data: data_cl, ip: str):
     cols = excel_file.columns.to_list()
     cols.remove('Итог')
     cols.append('Итог')
-    excel_file:pd.DataFrame = excel_file.reindex(columns=cols)
+    excel_file = excel_file.reindex(columns=cols)
     excel_file.to_excel(f'{homeDir}\\result.xlsx', engine='xlsxwriter')
     csv_file = csv_file.append({'data': data.string}, ignore_index=True)
     csv_file.to_csv(f'{homeDir}\\csv\\tokens_use.csv')
